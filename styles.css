@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: #748da6;
+}
+
+#title-line {
+  color: #393e46;
+  font-family: "VT323", monospace;
+  font-size: 6rem;
+  font-weight: 500;
+  letter-spacing: 0.1ch;
+  margin: 1rem 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  /* padding-block: 2rem; */
+}
+
+.btn {
+  border: 0.65em solid black;
+  border-radius: 20%;
+  height: 225px;
+  width: 225px;
+  margin: 2em 2em 3em;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
